@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"tp_dust":true}
+		}}}
+	}},
+	"rewards": { "function": "swords:swords/tp_dust" }
+}

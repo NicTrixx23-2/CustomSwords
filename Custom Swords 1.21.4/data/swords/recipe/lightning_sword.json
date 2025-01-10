@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "f",
+      "f",
+      "s"
+    ],
+    "key": {
+      "f": [
+        "minecraft:lightning_rod"
+      ],
+      "s": [
+        "stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "swords:lightning_sword",
+        "minecraft:item_name": "{\"text\":\"Lightning Sword\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}",
+        "consumable": {
+            "consume_seconds": 100000000,
+            "animation": "brush",
+            "has_consume_particles": false
+        },
+        "use_cooldown": {
+            "seconds": 5,
+            "cooldown_group": "swords:lightning_sword"
+        },
+        "custom_data": {"lightning_sword":true}
+      },
+      "count": 1
+    }
+  }
