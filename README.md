@@ -1,8 +1,9 @@
 # CustomSwords
 A Funny Little Datapack for Minecraft 1.21.4 I made
 
+# Download:
 
-Just Download The Files
+Download the SourceCode.zip from the latest release and extract the files 
 
 # Installation:
 
