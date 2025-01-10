@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:using_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"evocation_wand":true}
+		}}}
+	}},
+	"rewards": { "function": "swords:swords/evocation_wand" }
+}

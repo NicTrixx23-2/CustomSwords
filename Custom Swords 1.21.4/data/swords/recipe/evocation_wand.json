@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "f",
+      "s"
+    ],
+    "key": {
+      "f": [
+        "minecraft:iron_axe"
+      ],
+      "s": [
+        "stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "swords:evocation_wand",
+        "minecraft:item_name": "{\"text\":\"Evocation Wand\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":true}",
+        "consumable": {
+            "consume_seconds": 100000000,
+            "animation": "brush",
+            "has_consume_particles": false
+        },
+        "use_cooldown": {
+            "seconds": 0.1,
+            "cooldown_group": "swords:evocation_wand"
+        },
+        "custom_data": {"evocation_wand":true}
+      },
+      "count": 1
+    }
+  }

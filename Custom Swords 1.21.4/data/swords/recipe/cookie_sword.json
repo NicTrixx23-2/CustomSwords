@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "c",
+    "s"
+  ],
+  "key": {
+    "c": [
+      "minecraft:cookie"
+    ],
+    "s": [
+      "stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:item_model": "swords:cookie_sword",
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"#8F5009\",\"italic\":true,\"text\":\"Cookie Sword\"}",
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 4,
+        "can_always_eat": true
+      }
+    },
+    "count": 1
+  }
+}

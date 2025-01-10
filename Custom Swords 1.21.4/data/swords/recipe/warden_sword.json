@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "f",
+      "f",
+      "s"
+    ],
+    "key": {
+      "f": [
+        "minecraft:sculk_catalyst"
+      ],
+      "s": [
+        "stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "swords:warden_sword",
+        "minecraft:item_name": "{\"text\":\"Warden Sword\",\"color\":\"dark_green\",\"bold\":true,\"italic\":true}",
+        "consumable": {
+            "consume_seconds": 100000000,
+            "animation": "brush",
+            "has_consume_particles": false
+        },
+        "use_cooldown": {
+            "seconds": 0.1,
+            "cooldown_group": "swords:warden_sword"
+        },
+        "custom_data": {"warden_sword":true}
+      },
+      "count": 1
+    }
+  }
