@@ -1,0 +1,6 @@
+{
+    "parent": "item/mushroom_stew",
+    "textures": {
+        "layer0": "swords:item/lightning_sword"
+    }
+}
