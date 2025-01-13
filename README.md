@@ -15,6 +15,6 @@ Put the datapack (Custom Swords 1.21.4) in the datapacks folder of your world
 
 V beta.0.8
 
-# New Additions in the Next Update:
+# ✨New Additions in the Next Update:
 - Something that allows transdimensional Travel👀
 - A Ring....
