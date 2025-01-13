@@ -18,3 +18,5 @@ V beta.0.8
 # ✨New Additions in the Next Update:
 - Something that allows transdimensional Travel👀
 - A Ring....
+- A New Way of Protection
+- 
