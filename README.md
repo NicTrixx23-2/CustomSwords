@@ -13,10 +13,11 @@ Put the datapack (Custom Swords 1.21.4) in the datapacks folder of your world
 
 # 💻Current Version:
 
-V beta.0.8
+V beta.0.11 (Next Release soon)
 
 # ✨New Additions in the Next Update:
 - Something that allows transdimensional Travel👀
 - A Ring....
 - A New Way of Protection
 - BALLS??
+- 
