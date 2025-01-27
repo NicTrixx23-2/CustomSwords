@@ -1,0 +1,36 @@
+{
+	"type": "crafting_shaped",
+    "pattern": [
+        "uiu",
+        "ibi",
+        "uiu"
+      ],
+      "key": {
+        "u": [
+          "minecraft:blaze_rod"
+        ],
+        "i": [
+          "minecraft:blaze_powder"
+        ],
+        "b": [
+          "minecraft:book"
+        ]
+        },
+	"result": {
+		"id": "minecraft:paper",
+		"components": {
+			"item_name": "{\"text\":\"Flame Book Granter\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}",
+            "item_model": "swords:flame_book",
+			"consumable": {
+				"consume_seconds": 0,
+				"animation": "none",
+				"has_consume_particles": false
+			},
+			"custom_data": {"flame_book_give":true},
+            "lore": [
+                "{\"text\":\"Gives The User the legendary book of Flames\",\"color\":\"dark_red\",\"italic\":true}"
+            ]
+		},
+    "count": 1
+	}
+}

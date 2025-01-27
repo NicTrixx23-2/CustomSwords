@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " c ",
+      "dfb",
+      " a "
+    ],
+    "key": {
+      "f": [
+        "minecraft:armor_stand"
+      ],
+      "d": [
+        "minecraft:iron_leggings"
+      ],
+      "b": [
+        "minecraft:iron_chestplate"
+      ],
+      "c": [
+        "minecraft:iron_helmet"
+      ],
+      "a": [
+        "minecraft:iron_boots"
+      ]
+    },
+    "result": {
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_name": "{\"bold\":true,\"color\":\"green\",\"italic\":true,\"text\":\"Deployable Shield\"}",
+        "minecraft:item_model": "swords:deploy_shield",
+        "minecraft:custom_data": {
+          "deploy_shield": true
+        },
+        "minecraft:use_cooldown": {
+          "seconds": 5,
+          "cooldown_group": "swords:deploy_shield"
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 0,
+          "animation": "block",
+          "has_consume_particles": false
+        }
+      },
+      "count": 16
+    }
+  }

@@ -1,0 +1,1 @@
+playsound block.note_block.bell master @a ~ ~ ~ 10000 2

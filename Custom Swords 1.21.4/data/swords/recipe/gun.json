@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "pni",
+      "s u"
+    ],
+    "key": {
+      "u": [
+        "minecraft:iron_ingot"
+      ],
+      "i": [
+        "minecraft:iron_nugget"
+      ],
+      "p": "#minecraft:planks",
+      "n": [
+        "minecraft:netherite_scrap"
+      ],
+      "s": [
+        "minecraft:stick"
+      ]
+    },
+    "result": {
+      "id": "paper",
+      "components": {
+        "minecraft:item_model": "swords:gun",
+        "minecraft:item_name": "{\"bold\":true,\"color\":\"white\",\"text\":\"AK 47\",\"underlined\":true}",
+        "minecraft:consumable": {
+          "consume_seconds": 100000000,
+          "animation": "none",
+          "has_consume_particles": false
+        },
+        "minecraft:custom_data": {
+          "swords:gun": true
+        }
+      },
+      "count": 1
+    }
+  }

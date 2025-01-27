@@ -1,0 +1,1 @@
+execute if predicate swords:holding_sniper as @s run effect give @p[] minecraft:slowness 3 255 true

@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"flame_book_give":true}
+		}}}
+	}},
+	"rewards": { "function": "swords:swords/give_flame_book" }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " y ",
+    "uin",
+    "s u"
+  ],
+  "key": {
+    "u": [
+      "minecraft:iron_ingot"
+    ],
+    "i": [
+      "minecraft:netherite_ingot"
+    ],
+    "n": [
+      "minecraft:netherite_scrap"
+    ],
+    "s": [
+      "minecraft:stick"
+    ],
+    "y": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "paper",
+    "components": {
+      "minecraft:item_model": "swords:sniper",
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"white\",\"text\":\"Heavy Sniper\",\"underlined\":true}",
+      "minecraft:consumable": {
+        "consume_seconds": 100000000,
+        "animation": "none",
+        "has_consume_particles": false
+      },
+      "minecraft:custom_data": {
+        "swords:sniper": true
+      }
+    },
+    "count": 1
+  }
+}

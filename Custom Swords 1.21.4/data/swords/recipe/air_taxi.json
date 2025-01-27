@@ -1,0 +1,30 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"X": "#minecraft:boats",
+		"B": "minecraft:breeze_rod"
+	},
+	"pattern": [
+		"X",
+		"B"
+	],
+	"result": {
+		"id": "minecraft:glowstone_dust",
+		"components": {
+			"item_name": "{\"text\":\"Air Taxi\",\"color\":\"white\",\"bold\":true,\"italic\":true}",
+            "item_model": "swords:air_taxi",
+			"consumable": {
+				"consume_seconds": 0,
+				"animation": "spyglass",
+				"has_consume_particles": false,
+				"sound": "minecraft:entity.blaze.shoot"
+			},
+			"use_cooldown": {
+				"seconds": 0.1,
+				"cooldown_group": "swords:air_taxi"
+			},
+			"custom_data": {"air_taxi":true}
+		},
+    "count": 16
+	}
+}

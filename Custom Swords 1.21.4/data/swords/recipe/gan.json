@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "u"
+    ],
+    "key": {
+      "u": [
+        "minecraft:blaze_rod"
+      ]
+    },
+    "result": {
+      "id": "blaze_rod",
+      "components": {
+        "minecraft:item_model": "swords:gan_cube_unsolved",
+        "minecraft:item_name": "{\"bold\":true,\"color\":\"white\",\"text\":\"GAN 16 MagLev\",\"underlined\":true}",
+        "minecraft:consumable": {
+          "consume_seconds": 4.1,
+          "animation": "drink",
+          "has_consume_particles": false
+        },
+        "minecraft:custom_data": {
+          "gan_cube": true
+        }
+      },
+      "count": 1
+    }
+  }

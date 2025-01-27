@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "u"
+    ],
+    "key": {
+      "u": [
+        "minecraft:oak_planks"
+      ]
+    },
+    "result": {
+      "id": "paper",
+      "components": {
+        "minecraft:item_name": "{\"bold\":true,\"color\":\"white\",\"text\":\"Reload Paper\",\"underlined\":true}",
+        "minecraft:consumable": {
+          "consume_seconds": 1,
+          "animation": "drink",
+          "has_consume_particles": false
+        },
+        "minecraft:custom_data": {
+          "reload": true
+        }
+      },
+      "count": 1
+    }
+  }

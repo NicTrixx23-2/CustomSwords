@@ -1,0 +1,2 @@
+advancement revoke @s only swords:cube_solver
+give @s blaze_rod[item_name='{"bold":true,"color":"white","text":"GAN 16 MagLev","underlined":true}',item_model="swords:gan_cube",custom_data={"gan_cube":true}] 1

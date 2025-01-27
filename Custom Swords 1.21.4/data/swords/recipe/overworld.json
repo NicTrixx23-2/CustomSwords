@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    "dfd",
+    "ddd"
+  ],
+  "key": {
+    "f": [
+      "minecraft:flint_and_steel"
+    ],
+    "d": [
+      "minecraft:dirt"
+    ]
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": "{\"bold\":true,\"color\":\"green\",\"italic\":true,\"text\":\"Handheld Portal Overworld\"}",
+      "minecraft:item_model": "swords:handheld_portal_overworld",
+      "minecraft:custom_data": {
+        "handheld_portal_overworld": true
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 10,
+        "cooldown_group": "swords:handheld_portal"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "block",
+        "has_consume_particles": false
+      }
+    },
+    "count": 16
+  }
+}

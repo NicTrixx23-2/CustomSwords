@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"handheld_portal_nether":true}
+		}}}
+	}},
+	"rewards": { "function": "swords:swords/handheld_portal_nether" }
+}
