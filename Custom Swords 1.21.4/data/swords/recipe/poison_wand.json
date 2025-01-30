@@ -1,0 +1,35 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"S": "minecraft:stick",
+		"B": "minecraft:spider_eye",
+    "P": "minecraft:poisoned_potato"
+    "B": "minecraft:fermented_spider_eye",
+	},
+	"pattern": [
+		"BBB",
+		" S ",
+    " S "
+	],
+	"result": {
+		"id": "minecraft:stick",
+		"components": {
+			"item_name": "{\"text\":\"Poison Wand\",\"color\":\"green\",\"bold\":true,\"italic\":true}",
+            "item_model": "swords:poison_wand",
+			"consumable": {
+				"consume_seconds": 10000,
+				"animation": "brush",
+				"has_consume_particles": false
+			},
+			"use_cooldown": {
+				"seconds": 10,
+				"cooldown_group": "swords:flame_wand"
+			},
+			"custom_data": {"poison_wand.":true},
+            "lore": [
+                "{\"text\":\"A wand that shoots a ray that poisons enemies\",\"color\":\"dark_green\",\"italic\":true}"
+            ]
+		},
+    "count": 1
+	}
+}
